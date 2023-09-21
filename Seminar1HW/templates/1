@@ -1,1 +1,9 @@
-
+select
+    u.date_birth,
+    u.email,
+    u.firstname,
+    u.id,
+    u.lastname,
+    u.password
+from
+    user u;
